@@ -60,15 +60,22 @@ public class exercicio03 {
 
         System.out.println("###################################");
         System.out.println("### RELATÓRIO DA ADMISSÃO - TQI ###");
-        System.out.println("## Nome: " + nome + " #############");
-        System.out.println("## Idade: " + idade + " ###########");
-        System.out.println("## Salário: R$ " + salario + " ####");
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Salário: R$ " + salario);
 
         switch (sexo) {
-            case 'm' -> System.out.println("## Sexo: Masculino ################");
-            case 'f' -> System.out.println("## Sexo: Feminino #################");
+            case 'm' -> System.out.println("Sexo: Masculino ");
+            case 'f' -> System.out.println("Sexo: Feminino");
         }
-        System.out.println("## Estado Civil: " + nome + " #####");
+
+        switch (estadoCivil){
+            case 's' -> System.out.println("Estado Civil: Solteiro");
+            case 'c' -> System.out.println("Estado Civil: Casado");
+            case 'v' -> System.out.println("Estado Civil: Viúvo");
+            case 'd' -> System.out.println("Estado Civil: Divorciado");
+        }
+        System.out.println("###################################");
 
 
 
