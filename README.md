@@ -1,2 +1,2 @@
 # dio
-Exercícios e Projetos do Bootcamp Java TQI da DIO
+Exercícios do Bootcamp Java TQI da DIO
